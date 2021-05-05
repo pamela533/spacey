@@ -1,0 +1,207 @@
+style.css
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/*Barre de navigation/ Menu*/ 
+
+.navbar-spacey {
+    background-color: black; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+    padding:20px 50px;
+    position: fixed;
+    top:0;
+    width:100%;
+
+}
+
+
+.logo {
+    width:50px;
+}
+
+.navlink {
+    display:flex;
+    justify-content:space-around;
+    width:50%;
+}
+
+.link { 
+    color:white;
+    text-decoration:none;
+}
+
+.link:hover{
+    color:white;
+}
+
+#header {
+    background: url(imagen/h550.jpg);
+    background-size: cover;
+    height: 70vh;
+    color:white;
+}
+
+.titre {
+    margin: 0;
+    text-align:center;
+    font-size:80px;
+    padding-top:200px;
+}
+
+.slogan {
+    text-align:center;
+    font-size:45px; 
+}
+
+.presentation{
+    background-color:#1C1C1C;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    margin: auto;
+    height: 30vh;
+
+
+}
+.presentation p{
+    margin:0;
+    text-align:center;
+    padding-top:5%;
+}
+
+#space-Y{
+    background-color:#2E2E2E;
+    height:100vh;
+
+}
+
+.foto{
+    width:300px;
+    height:300px;
+    border-radius: 40%;
+    border:#252525 solid 1px;
+    box-shadow: 5px 1px 1px #252525;
+}
+
+.box{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-top:5%;   
+}
+
+.box2{
+   display:flex;
+   justify-content:space-around;
+   align-items:center;
+   text-align:center; 
+   color: white;   
+}
+
+.titre-equipe {
+
+    color:white;
+    text-align:center;
+    padding-top:3%;
+    margin:0;
+}
+
+
+
+#voyages {
+    margin:0;
+    text-align:center;
+    padding-top:3%;
+    
+    padding-right: 3%; 
+    padding-left: 3%;
+    color: white;
+    background-color: #565252;
+}
+
+.card-body {
+    background-color: #565252;
+    color: white;
+
+} 
+
+
+
+.col img {
+
+    background-color: #565252;
+    color:black;     
+}
+
+
+#contact{
+    background-color: #968C8C;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.container-vaisseaux
+{
+  padding:5%;
+
+}
+
+
+
+.vaisseaux
+{
+    width: 500px;
+    height: 300px;
+    border-radius: 80%;
+    border:#181818 solid 1px;
+    box-shadow: 5px 1px 1px #181818;
+}
+
+.footer {
+
+    background-color:#1c1b1b;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}   
+
+.cgu {
+   display: flex;
+   justify-content: flex-start;
+   width: 20%;
+
+}
+
+.copia{
+   color:white;
+
+}
+
+.copia:hover{
+    color:white;
+}
+
+.iconos{
+
+    display: flex;
+    justify-content: space-around;
+    width:20%;
+    color:white;
+}
